@@ -188,14 +188,21 @@
 	.header-style-three{
 		position:relative;
 		background-color:#182752;
+
 	}
 	
 	.banner-section-three .image-column .image{
 		margin-right:0px;
 	}
+
+	.margin__col {
+		margin-bottom: 0px;
+	}
 	
 	.banner-section-three{
-		padding-top:180px;
+		padding-top:200px;
+		background-size: cover;
+		padding-bottom: 0px;
 	}
 	
 	.faq-section .image-column .inner-column{

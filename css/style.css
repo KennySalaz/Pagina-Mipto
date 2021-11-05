@@ -996,9 +996,9 @@ ul.tabs li a{
 	font-size: 12px;
 }
 
-.active{
+/* .active{
 	background: #212121;
-}
+} */
 
 ul.tabs li a .tab-text{
 	margin-left: 8px;
@@ -7871,6 +7871,7 @@ color: white;
 	background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #0090E4), color-stop(100, #1B18A1));
 	background-image: -webkit-linear-gradient(right, #0090E4 0%, #1B18A1 100%);
 	background-image: linear-gradient(to left, #0090E4 0%, #1B18A1 100%);
+	background-image: url('../images/Elemento\ \(2\).jpg');
 }
 
 .banner-section-three .social-box{
@@ -8862,6 +8863,55 @@ color: white;
 .team-block-two .inner-box:hover .image-box .social-outer{
 	opacity:1;
 }
+
+.showcase.active {
+	right: 300px;
+  }
+  
+.showcase {
+	right: 0;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #ffffff;
+	transition: 0.5s;
+	z-index: 2;
+  }
+  
+  .showcase img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	  height: 100%; 
+	object-fit: cover;
+	opacity: 0.8;
+  }
+
+
+
+  .overlay_2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #124c6dcf;
+	mix-blend-mode: overlay;
+  }
+
+  .span_consultoria{
+	color: white;
+	font-family: 'Montserrat';
+	font-weight: 700;
+  }
+
+  .alinet_lef{
+	text-align: left;
+  }
 
 .team-block-two .inner-box .image-box .social-box{
 	position:relative;
